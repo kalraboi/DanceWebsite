@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.container{
+    min-height: 78vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+
+
+.myForm{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+}
+
+
+.myinput{
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    font-size: 15px;
+    border: 2px solid rgb(224, 172, 172);
+    border-radius: 4px;
+
+}
+
+.btn{
+    padding: 8px 16px;
+    font-size: 18px;
+    border: 2px solid rgb(14, 13, 13);
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(127, 24, 24);
+    outline: none;
+    margin: 20px;
+}
